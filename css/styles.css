@@ -1,0 +1,121 @@
+body {
+    text-align: center;
+    background-image: url("../images/pattern-background-desktop.svg"); /*The source URL for the image.*/
+    /* if you dont put ../ , it looks for images inside stylesheet folder but i dont have style sheet folder */
+    background-repeat: no-repeat; /*Whether and how the image should tile. */
+    /*background-attachment: fixed; /*Whether and how the image should scroll with the content. */
+    /*background-position: center center;/*How the image should be placed relative to the element. */
+    /* background-size: cover; */
+    background-color: #E1E7FD;
+    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 30px auto;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    width: 75%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+    position: absolute;
+    margin: 0;
+    top: 12px;
+    left: 70px;
+}
+
+.frame {
+    box-shadow: 0px 0px 10px 10px rgba(158, 158, 158, 0.5);
+    background-color: white;
+    width: 30%;
+    margin: 2% auto;
+    border-radius: 10px;
+    padding-bottom: 0.1px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.price-frame {
+    /* height: 48px; */
+    height: 80px;
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgba(206, 206, 206, 0.288);
+    position: relative;
+    border-radius: 10px;
+}
+
+.price-text {
+    text-align: left;
+    margin-top: 5px;
+    float: left;
+    position: absolute;
+    margin: 0px;
+    bottom: 16px;
+    left: 70px;
+    width: 25%;
+}
+
+.change-text {
+    color: #362AD8;
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 0;
+    position: absolute;
+    top: 31.5px;
+    right: 10px;
+    width: 20%;
+}
+
+.music-img {
+    float: left;
+    position: absolute;
+    margin: 0;
+    top: 16px;
+    left: 10px;
+}
+
+.payment-frame {
+    background-color: #362AD8;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 75%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(158, 158, 158, 0.438);
+    /* shadow */
+}
+
+.payment-frame:hover {
+    background-color: #34d49a;
+}
+
+.payment-text {
+    color: white;
+    font-weight: 500;
+}
+
+.cancel {
+    color: darkgrey;
+    font-weight: 700;
+    margin-bottom: 30px;
+    width: 150px;
+}
+
+.cancel:hover {
+    color: #34d49a;
+}
